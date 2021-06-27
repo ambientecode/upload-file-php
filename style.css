@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading {
+    display: none;
+}
+
+input[type=file] {
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #63e1e6;
+    padding: 20px;
+}
